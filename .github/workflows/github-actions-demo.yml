@@ -3,11 +3,9 @@ on:
   workflow_dispatch:
   workflow_call:
     push:
-    branches:
-      - main
-    paths:
-      - 'labs/**'
-
+        branches:
+          - main
+   
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
